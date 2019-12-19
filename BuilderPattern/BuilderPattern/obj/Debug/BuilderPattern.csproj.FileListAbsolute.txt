@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.exe.config
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.exe
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.pdb
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.csprojAssemblyReference.cache
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.exe
+C:\Users\User\source\repos\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.pdb
