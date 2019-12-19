@@ -7,7 +7,7 @@
 Builder Tasarım Deseni karmaşık yapıdaki nesnelerin oluşturulmasında, istemcinin nesne tipini belirterek üretimi gerçekleştirilebilmesini sağlamak için kullanılır.Builder Design Pattern adı üzerinde bir inşaatçı görev üstlenen yaklaşım sergilemektedir. Projemiz inşa süresindeyken oluşturacağımız bazı nesnelerin üretimleri oldukça maliyetli olabilir, zamanla bu nesnelerin yapısı değişebilir yahut güncellenebilir. Yani nesne üzerinde her türlü dinamik süreç yaşanabilir. İşte bu tarz inşa durumlarında Builder Design Pattern ile ilgili nesneler genişletilebilir bir hale getirilmekte ve en önemlisi kod karmaşalığı minimize edilmektedir.
 Yukarıda bahsettiğimiz o kompleks ve maliyetli nesnelerin oluşturulmasından Builder dediğimiz sınıf sorumlu tutulacaktır. Client, hangi nesnenin oluşturulacağını türü aracılığıyla belirteceğinden, oluşturulacak asıl nesneyle ve oluşturulmasıyla ilgilenmeyecektir. Dolayısıyla istemciyi maliyetli nesnelerin üretimsel sorumluluğu olan bu tarz bir işlevden kurtarmış olacağız. Ayriyetten, oluşturulacak nesnenin gerekli tüm donanımını ilgili desen halledeceği için istemciye sadece ne istediğini bilmek kalacaktır.
 
-![]()
+![](https://github.com/RukiyeSahin/yazilim-mimarisi-ve-tasarimi-2/blob/master/Builder.png)
 
 Evet, yukarıdaki şemayı incelerseniz eğer gördüğünüz gibi "Builder", "ConcreteBuilder", "Product" ve "Director" isminde dört adet terimimiz mevcuttur. Şimdi bu terimlerden bahsedersek;
 
