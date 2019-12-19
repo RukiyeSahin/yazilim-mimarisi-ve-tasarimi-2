@@ -29,7 +29,7 @@ Yaptığımız tasarım sonucunda bir Builder referansı üzerinden Client taraf
 
 Şimdi Builder Deseninine örnek verelim.
 
-![]()
+![](https://github.com/RukiyeSahin/yazilim-mimarisi-ve-tasarimi-2/blob/master/BuilderAraba.png)
 
 Öncelikle ele alacağımız örnek birbirinden farklı özellik ve markalara sahip araba üretecek bir yapı oluşturmaktadır.
 
