@@ -37,7 +37,7 @@ Burada oluşturmak istediğimiz ürün araba olacağı için Product nesnemiz Ar
 
 Öncelikle Product Class’ımızı oluşturuyoruz.
 
-```sh
+```c#
 //Product Class
 class Araba
 {
@@ -54,7 +54,7 @@ class Araba
 
 Şimdi ise Builder arayüzümüzü oluşturalım.
 
-```sh
+```c#
 //Builder
 abstract class ArabaBuilder
 {
@@ -75,7 +75,7 @@ Burada dikkat etmemiz gereken husus, Builder sınıfımızda Araba referanssın�
  
 Ardında Concrete builder nesnelerimizi oluşturalım.
 
-```sh
+```c#
 //ConcreteBuilder Class
 
 class OpelConcreteBuilder : ArabaBuilder
@@ -118,7 +118,7 @@ class BMWConcreteBuilder : ArabaBuilder
 ```
 Son olarak Director Class'ı oluşturalım.
 
-```sh
+```c#
 //Director class
 class ArabaUcret
 { 
@@ -133,7 +133,7 @@ class ArabaUcret
   ```
   Araba üretimi için Builder Design Pattern'i uygulamış olduk. Şimdi bir Client tarafından araba talebinde bulunabiliriz.Bunun için aşağıda main metodu yazılmıştır
   
-  ```sh
+  ```c#
   //Client
   class Program
 {
